@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assignment1.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="uppernavigation">
+            <span class="icon">
+                <i id="phn" class="fas fa-phone"></i>
+                <p> Call : 01 123455678990</p>
+            </span>
+            <div class="icon">
+                <i id="phn" class="fa-solid fa-envelope"></i>
+                <p> Email : demo@gmail.com</p>
+            </div>
+            <span class="icon">
+                <i id="phn" class="fa-solid fa-location-dot"></i>
+                <p> Location</p>
+            </span>
+        </div>
+        <nav class="navigation">
+            <img id="logo" src="images/logo.png" alt="logo">
+            <div class="navelement">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">TREATMENT</a>
+                <a href="#">DOCTORS</a>
+                <a href="#">TESTIMONIAL</a>
+                <a href="#">CONTACT US</a>
+            </div>
+            <div class="navelementright" >
+                <div class="icon">
+                    <i id ="icons" class="fa-solid fa-user"></i>
+                    <h3>Login</h3>
+                </div>
+
+                <div class="icon">
+                <i id ="icons" class="fa-solid fa-user"></i>
+                <h3>SIGN UP</h3>   
+                </div>
+                
+                <i id ="icons" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <img id="img" src="images/slider-img.jpg" alt="slider">
+        <img id="img2" src="images/dots.png" alt="dots">
+        <i id="play"  class="fa-solid fa-circle-play"></i>
+        <h1 >MICO</h1>
+        <h1 style="color: rgb(80, 180, 152); margin-top: 0%;">HOSPITAL</h1>
+        <p>when looking at its layout. The point of using Lorem ipsum is that it has a more or less normal distribution of letters as opposed to</p>
+        <button id = "button" type="button">Contact Us</button>
+    </main>
+ 
+        <hr id="hr">
+        <div id = "arrow"><img src="images/prev.png" alt="prev"></div>
+        <div id = "arrow2"><img src="images/next.png" alt="prev"></div>
+    <form action="php">
+        <div id = "form">
+            <h1>BOOK <b style="color: rgb(80, 180, 152)"> APPOINTMENT</b></h1>  
+            <hr id="formhr">
+            
+            
+                <div id="innerform">
+                    <div class="form-column">
+                        <label for="patientName">Patient Name</label>
+                        <input type="text" id="patientName">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" id="phoneNumber" placeholder="xxxxxxxxxx">
+
+                    </div>
+                    <div class="form-column">
+                        
+                        <label for="doctorname">Doctor's Name</label>
+
+                        <select id="doctorname">
+                            <option value="Normal Distrinution">Normal Distrinution</option>
+                            <option value="Abnormal Distrinution">Abnormal Distrinution</option>
+                            
+                        </select>                        
+                        <label for="symptoms">Symptoms</label>
+                        <input type="text" id="symptoms">
+
+
+
+                    </div>
+                    <div class="form-column">
+                        <label for="departmentname">Department's Name</label>
+
+                        <select id="departmentname">
+                            <option value="Normal Distrinution">Normal Distrinution</option>
+                            <option value="Abnormal Distrinution">Abnormal Distrinution</option>
+                            
+                        </select>     
+                        <label for="chooseDate">Choose Date</label>
+                        <input type="date" id="chooseDate">
+                    </div>
+                    
+                </div>
+            
+            <button type="submit" id="button">SUBMIT NOW</button> 
+        </div>
+    </form> 
+    
+</body>
+</html>
